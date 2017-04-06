@@ -8,8 +8,8 @@ import time
 import re
 import linecache
 from collections import defaultdict
-d = defaultdict(int)
-
+d = defaultdict(int) # d is the dictionary used to store the value elements for a particular key in the format: 
+                     # 5 values are: Count, newtime, FirstOccurencetime(foc), unblock time, http reply code
 onetime=0
 beingchecked=0
 
